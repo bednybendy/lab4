@@ -1,0 +1,6 @@
+age=int(input())
+if age<0: print('некорректно')
+elif age<=12: print('ребёнок')
+elif age<=17: print('подросток')
+elif age<=64: print('взрослый')
+else: print('пожилой')

@@ -1,0 +1,5 @@
+a,b,c=float(input('')),float(input('')),float(input(''))
+if a>=b and a>=c: m=a
+elif b>=a and b>=c: m=a
+elif c>=b and c>=a: m=a
+print(f'максимальное: {m}')
